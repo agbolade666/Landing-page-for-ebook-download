@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<div class="container">
+  		<div class="jumbotron">
+  			<h1 class="display-4">Ebook download page!</h1>
+  			<h4 class="lead">Please kindly enter your name and e-mail address, and a copy of the book will be sent to you via your email.</h4>
+  			<hr class="my-4">
+  			<p>
+  				<form action="process.php" method="post">
+
+  					<div class="form-group">
+					    <label for="exampleInputPassword1">Full names</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" name="full_names" placeholder="Full Names" required>
+					 </div>
+
+					 <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" name="email_address" aria-describedby="emailHelp" placeholder="Enter email" required>
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					 </div>
+					  
+					<button type="submit" class="btn btn-primary">Submit</button>
+
+				</form>
+  			</p>
+  			
+		</div>
+	</div>
+
+
+</body>
+</html>
